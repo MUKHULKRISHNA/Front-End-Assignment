@@ -1,0 +1,90 @@
+body{
+    margin:0;
+    padding:0;
+    height:100vh;
+    justify-content:center;
+    align-items:center;
+    font-family:'Times New Roman', Times, serif;
+    background-color: cornflowerblue;
+    background-image:url('./3.png');
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size:100% 100%;
+
+}
+nav {
+    display:inline;
+    justify-content: space-between;
+}
+
+ul{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    margin: 0px;
+    padding: 24px 0px 5px 30px;
+    
+}
+.Profile{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Selfdetails{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    margin-bottom: 10;
+
+}
+
+.Selfdetails .content{
+    text-align:left;
+    font-size:20px;
+    margin:0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.Education{
+    text-align:center;
+    font-size:28px;
+    margin:0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Education .Educationdetails{
+    text-align:left;
+    font-size:20px;
+    margin:0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
+}
+.Company{
+    text-align:center;
+    font-size:28px;
+    margin:0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Company .Companydetails{
+    text-align:left;
+    font-size:20px;
+    margin:0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.Project{
+    text-align:center;
+    font-size:28px;
+    margin:0;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.Project .description{
+    text-align:left;
+    font-size:20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin:0;
+
+}
